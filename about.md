@@ -4,11 +4,11 @@ title: About
 permalink: /about/
 ---
 
-I am a Ph.D candidate major in statistics and transportation engineering at UC Irvine.
+I am a Ph.D candidate major in statistics and transportation engineering at UC Irvine. My research focuses on traffic state estimation with heterogeneous data sources.
 
 ### More Information
 
-I am a data enthusiast by heart. I extremely enjoy applying my data analysis skills to extract insights from large datasets and visualize them in a meaningful story.
+I am a data enthusiast by heart. I extremely enjoy applying my data analysis skills to extract insights from large datasets and visualize them in a meaningful story. 
 
 ### Contact me
 
