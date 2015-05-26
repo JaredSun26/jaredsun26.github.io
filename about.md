@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+I am a Ph.D candidate major in statistics and transportation engineering at UC Irvine.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I am a data enthusiast by heart. I extremely enjoy applying my data analysis skills to extract insights from large datasets and visualize them in a meaningful story.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[zhes@uci.edu](mailto:zhes@uci.com)
