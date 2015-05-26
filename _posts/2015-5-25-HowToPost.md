@@ -40,7 +40,7 @@ Now, I can draw my plots:
 plot(x)
 ```
 
-![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3-1.png) 
+![plot of chunk unnamed-chunk-3](/figure/unnamed-chunk-3-1.png) 
 I use the following code to generate a markdown file from the Rmarkdown file I am working on:
 
 
