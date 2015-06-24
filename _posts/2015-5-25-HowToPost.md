@@ -60,7 +60,7 @@ Now, the post is ready to view. Not hard at all, right?
 
 I forgot to mention that Jekyll also supports html output. To create a html post, just put the html file into the *\_posts* folder and name it according to the following format:
 
->YEAR-MONTH-DAY-title.MARKUP
+>YEAR-MONTH-DAY-title.html
 
 It is nice and easy.
 
