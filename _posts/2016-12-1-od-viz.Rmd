@@ -6,3 +6,10 @@ output: html_document
 ---
 
 A test to include d3 visualization.
+```{r cars}
+summary(cars)
+```
+Use liquid's tage
+{%include D3-od.html%}
+
+
