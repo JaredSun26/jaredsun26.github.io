@@ -51,7 +51,7 @@ library(knitr)
 knit2html("2015-5-25-HowToPost.Rmd")
 ```
 
-After copying the output file "2015-5-25-HowToPost.md" to  *\_posts* folder in the repo, I copy everything inside *figure* folder on my computer to *figure* folder in the repo.  
+After copying the output file "2015-5-25-HowToPost.md" to  *\_posts* folder in the repo, I copy everything inside *figure* folder on my computer to *images* folder in the repo.  
 For the external figures, you can either put them inside *images* folder, or refer to their URLs. (e.g. you can put the image in *public* folder of your [DropBox](https://www.dropbox.com/) and copy its public link in the right click menu).  
 ![datascience](https://dl.dropboxusercontent.com/u/24684859/github/datascience.jpg).   
 Now, the post is ready to view. Not hard at all, right?
