@@ -1,6 +1,6 @@
 
 // get the data
-d3.csv("_data/force_directed.csv", function(error, links) {
+d3.csv("/data/force_directed.csv", function(error, links) {
 
 	var nodes = {
 				'Brevard':     {name: 'Brevard',      x: -80.7439,   y: 28.263207, fixed: true},
