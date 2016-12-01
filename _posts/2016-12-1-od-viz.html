@@ -123,6 +123,18 @@ $(document).ready(function () {
 </div>
 
 
+Include the css:
+<style type="text/css">
+{% include bootstrap.min.css %}
+{% include style.css %}
+</style>
+Include javascript:
+<script type="text/javascript">
+{% include bootstrap.min.js %}
+{% include d3.min.js %}
+{% include jquery.min.js %}
+{% include main.js %}
+</script>
 <p>A test to include d3 visualization.</p>
 <pre class="r"><code>summary(cars)</code></pre>
 <pre><code>##      speed           dist       
