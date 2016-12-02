@@ -39,8 +39,6 @@ d3.csv("data/force_directed.csv", function(error, links) {
 		link.target = nodes[link.target];
 		link.value = +link.value;
 	});
-
-	console.log(nodes);
 	
 	// Set the range
 	var  v = d3.scale.linear().range([5, 85]);
