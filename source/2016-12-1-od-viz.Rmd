@@ -1,0 +1,27 @@
+---
+title: "OD Viz"
+author: "Jared Sun"
+date: "December 1, 2016"
+output: html_document
+---
+Include the css:
+<style type="text/css">
+{% include odViz/css/bootstrap.min.css %}
+{% include odViz/css/style.css %}
+</style>
+Include javascript:
+<script type="text/javascript">
+{% include odViz/js/bootstrap.min.js %}
+{% include odViz/js/d3.min.js %}
+{% include odViz/js/jquery.min.js %}
+{% include odViz/js/main.js %}
+</script>
+
+A test to include d3 visualization.
+```{r cars}
+summary(cars)
+```
+Use liquid's tage
+{%include odViz/D3-od.html%}
+
+
