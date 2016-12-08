@@ -1,0 +1,73 @@
+"source","target","value"
+"Brevard","Indian River",390578.79
+"Brevard","Lake",43035
+"Brevard","Orange",1179996.43
+"Brevard","Osceola",197617.78
+"Brevard","Polk",84363.74
+"Brevard","Seminole",119872.06
+"Brevard","Sumter",31440.71
+"Brevard","Volusia",579807.33
+"Indian River","Brevard",415707.03
+"Indian River","Lake",16352.72
+"Indian River","Orange",219141.71
+"Indian River","Osceola",57805.77
+"Indian River","Polk",46322.04
+"Indian River","Seminole",25372.55
+"Indian River","Sumter",17707.87
+"Indian River","Volusia",145511.27
+"Lake","Brevard",44922.13
+"Lake","Indian River",15377.32
+"Lake","Orange",1225837.02
+"Lake","Osceola",236093.06
+"Lake","Polk",207173.73
+"Lake","Seminole",201452.66
+"Lake","Sumter",755852.41
+"Lake","Volusia",224819.5
+"Orange","Brevard",1163484.21
+"Orange","Indian River",212666.73
+"Orange","Lake",1274374.65
+"Orange","Osceola",6538110.26
+"Orange","Polk",1857804.33
+"Orange","Seminole",2920697.45
+"Orange","Sumter",463172.85
+"Orange","Volusia",1290566.3
+"Osceola","Brevard",196400.88
+"Osceola","Indian River",61702
+"Osceola","Lake",237447.18
+"Osceola","Orange",7011175.04
+"Osceola","Polk",882313.78
+"Osceola","Seminole",163047.35
+"Osceola","Sumter",125166.83
+"Osceola","Volusia",199581
+"Polk","Brevard",87072.39
+"Polk","Indian River",47001.91
+"Polk","Lake",226391.87
+"Polk","Orange",1961276.79
+"Polk","Osceola",878814.42
+"Polk","Seminole",142345.9
+"Polk","Sumter",128184.29
+"Polk","Volusia",210298.07
+"Seminole","Brevard",120784.45
+"Seminole","Indian River",20932.85
+"Seminole","Lake",205679.75
+"Seminole","Orange",2912759.67
+"Seminole","Osceola",178196.31
+"Seminole","Polk",140962.72
+"Seminole","Sumter",37041.86
+"Seminole","Volusia",821111.27
+"Sumter","Brevard",29268.79
+"Sumter","Indian River",17593.06
+"Sumter","Lake",743647.84
+"Sumter","Orange",444259.87
+"Sumter","Osceola",118281.21
+"Sumter","Polk",106029.85
+"Sumter","Seminole",40021.15
+"Sumter","Volusia",27177.85
+"Volusia","Brevard",480515.15
+"Volusia","Indian River",122838.2
+"Volusia","Lake",222688.7
+"Volusia","Orange",1326970.73
+"Volusia","Osceola",225036.93
+"Volusia","Polk",199049.91
+"Volusia","Seminole",708022.24
+"Volusia","Sumter",26198.19

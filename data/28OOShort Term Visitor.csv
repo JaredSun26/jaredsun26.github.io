@@ -1,0 +1,73 @@
+"source","target","value"
+"Brevard","Indian River",5215.08
+"Brevard","Lake",402.85
+"Brevard","Orange",5694.69
+"Brevard","Osceola",897.27
+"Brevard","Polk",685.75
+"Brevard","Seminole",1151.75
+"Brevard","Sumter",190.37
+"Brevard","Volusia",8368.75
+"Indian River","Brevard",6693.59
+"Indian River","Lake",373.97
+"Indian River","Orange",1280.33
+"Indian River","Osceola",291.11
+"Indian River","Polk",596.65
+"Indian River","Seminole",223.47
+"Indian River","Sumter",239.24
+"Indian River","Volusia",2288.07
+"Lake","Brevard",410.63
+"Lake","Indian River",225.35
+"Lake","Orange",9274.45
+"Lake","Osceola",1430.37
+"Lake","Polk",2080.22
+"Lake","Seminole",1876.42
+"Lake","Sumter",10343.97
+"Lake","Volusia",2583.91
+"Orange","Brevard",7059.59
+"Orange","Indian River",924.09
+"Orange","Lake",11050.77
+"Orange","Osceola",8244.18
+"Orange","Polk",12086.71
+"Orange","Seminole",4921.2
+"Orange","Sumter",2308.6
+"Orange","Volusia",6849.43
+"Osceola","Brevard",706.9
+"Osceola","Indian River",318.1
+"Osceola","Lake",1768.28
+"Osceola","Orange",7251.41
+"Osceola","Polk",6352.03
+"Osceola","Seminole",347.4
+"Osceola","Sumter",1581.84
+"Osceola","Volusia",532.19
+"Polk","Brevard",779.4
+"Polk","Indian River",404.34
+"Polk","Lake",2752.38
+"Polk","Orange",11801.78
+"Polk","Osceola",5190.19
+"Polk","Seminole",1460.56
+"Polk","Sumter",1266.58
+"Polk","Volusia",3044.55
+"Seminole","Brevard",709.56
+"Seminole","Indian River",169.38
+"Seminole","Lake",1734.83
+"Seminole","Orange",5020.54
+"Seminole","Osceola",370.27
+"Seminole","Polk",1307.68
+"Seminole","Sumter",332.01
+"Seminole","Volusia",9149
+"Sumter","Brevard",153.78
+"Sumter","Indian River",340.34
+"Sumter","Lake",10360.34
+"Sumter","Orange",1936.74
+"Sumter","Osceola",1487.82
+"Sumter","Polk",1428.09
+"Sumter","Seminole",383.45
+"Sumter","Volusia",211.39
+"Volusia","Brevard",4865.11
+"Volusia","Indian River",1561.28
+"Volusia","Lake",2121.62
+"Volusia","Orange",8857.66
+"Volusia","Osceola",811.1
+"Volusia","Polk",2245.2
+"Volusia","Seminole",9919.33
+"Volusia","Sumter",360.04

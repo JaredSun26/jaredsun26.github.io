@@ -1,0 +1,73 @@
+"source","target","value"
+"Brevard","Indian River",6612.94
+"Brevard","Lake",478.98
+"Brevard","Orange",7191.65
+"Brevard","Osceola",882.97
+"Brevard","Polk",843.45
+"Brevard","Seminole",800.52
+"Brevard","Sumter",182.81
+"Brevard","Volusia",9094.61
+"Indian River","Brevard",7147.41
+"Indian River","Lake",218.56
+"Indian River","Orange",1542.68
+"Indian River","Osceola",829.36
+"Indian River","Polk",437.8
+"Indian River","Seminole",316.01
+"Indian River","Sumter",230.76
+"Indian River","Volusia",2345.4
+"Lake","Brevard",293.39
+"Lake","Indian River",139.13
+"Lake","Orange",10304.95
+"Lake","Osceola",1841.58
+"Lake","Polk",2492.87
+"Lake","Seminole",1774.07
+"Lake","Sumter",11810.01
+"Lake","Volusia",2420.31
+"Orange","Brevard",8252.96
+"Orange","Indian River",836.09
+"Orange","Lake",12834.54
+"Orange","Osceola",8770.18
+"Orange","Polk",14453.82
+"Orange","Seminole",5697.06
+"Orange","Sumter",2488.93
+"Orange","Volusia",7285.21
+"Osceola","Brevard",821.21
+"Osceola","Indian River",990.73
+"Osceola","Lake",2199.15
+"Osceola","Orange",9101.82
+"Osceola","Polk",6289.9
+"Osceola","Seminole",667.09
+"Osceola","Sumter",1741.05
+"Osceola","Volusia",977.7
+"Polk","Brevard",1008.89
+"Polk","Indian River",440.24
+"Polk","Lake",3259.99
+"Polk","Orange",13242.46
+"Polk","Osceola",5858
+"Polk","Seminole",1434.28
+"Polk","Sumter",1759.61
+"Polk","Volusia",2155.29
+"Seminole","Brevard",1031.01
+"Seminole","Indian River",268.42
+"Seminole","Lake",2513.98
+"Seminole","Orange",6060.42
+"Seminole","Osceola",588.25
+"Seminole","Polk",1861.78
+"Seminole","Sumter",230.21
+"Seminole","Volusia",9769.08
+"Sumter","Brevard",119.26
+"Sumter","Indian River",308.36
+"Sumter","Lake",11194.01
+"Sumter","Orange",2329.21
+"Sumter","Osceola",1244.76
+"Sumter","Polk",1341.58
+"Sumter","Seminole",391.55
+"Sumter","Volusia",247.79
+"Volusia","Brevard",7785.2
+"Volusia","Indian River",2264.91
+"Volusia","Lake",2418.71
+"Volusia","Orange",7590.5
+"Volusia","Osceola",1314.23
+"Volusia","Polk",2432
+"Volusia","Seminole",7798.65
+"Volusia","Sumter",146.74
