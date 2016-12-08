@@ -452,7 +452,7 @@ function onChange(fname){
 	});
 }
 
-onChange("31allall.csv")
+onChange("allall.csv")
 
 
 
