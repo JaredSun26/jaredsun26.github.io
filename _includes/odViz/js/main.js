@@ -426,7 +426,7 @@ pieLegend.selectAll("label")
 }
 
 
-d3.select("#submit")
+d3.select("#submitButton")
   .on("click", function() {
   	radio = d3.select("input[name = 'date']:checked").node().value;
   	switch(radio){
