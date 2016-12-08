@@ -238,7 +238,7 @@ function onChange(fname){
 	svg.selectAll("defs.linkFill").remove();
 	
 	
-
+window.alert("fname")
 	// read the link data
 	d3.csv("/data/"+fname, function(error, links) {
 	// Load the links and set the source and target
