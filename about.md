@@ -3,8 +3,8 @@ layout: page
 title: About
 permalink: /about/
 ---
-
-I am a Ph.D candidate major in statistics and transportation engineering at UC Irvine. My research focuses on traffic state estimation with heterogeneous data sources.
+I am working as the system manager at Institute of Transportation Studies at UC Irvine.
+I got Ph.D. in transportation engineering and M.S. in Statistics at UC Irvine. My research focuses on traffic modeling and traffic data analysis.
 
 ### More Information
 

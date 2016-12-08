@@ -35,42 +35,6 @@ for (var node in centroids){
 }
 
 
-
-function onChange(){
-
-	radio = d3.select("input[name = 'date']:checked").node().value;
-  	switch(radio){
-  		case "all":
-  			day = 31;
-  			break;
-  		case "date":
-  			day =  parseInt(d3.select("#datepicker").node().value.split("-")[2]);
-  			break;
-  		case "day":
-  			day = d3.select("#weekday").node().value;
-  			break;
-  	}
-	subClass = d3.select("#sub").node().value;
-	tripPurp = d3.select("#purpose").node().value;
-
-	fname = day + tripPurp + subClass + '.csv';
-	//change the map
-	map = d3.select("input[name = 'map']:checked").node().value;
-	d3.select("#chart-area").attr("class", map);
-
-	//reset the charting area
-	d3.select("#chart-area").selectAll("*").remove();
-	
-	// read the link data
-	d3.csv("../data/"+fname, function(error, links) {
-	// Load the links and set the source and target
-	links.forEach(function(link) {
-		link.source = centroids[link.source];
-		link.target = centroids[link.target];
-		link.value = +link.value;
-	});
-	
-	
 ////////////////////////tooltip///////////////////////////
 var tooltip = d3.select("div.container").append("div")	
    .attr("class", "tooltip")				
@@ -243,6 +207,43 @@ pieLegend.selectAll("label")
   		     //.attr("text-anchor", "middle")
   		     .text(function(d){return d;});
 /////////////////////////submit button////////////////////////
+function onChange(){
+	radio = d3.select("input[name = 'date']:checked").node().value;
+  	switch(radio){
+  		case "all":
+  			day = 31;
+  			break;
+  		case "date":
+  			day =  parseInt(d3.select("#datepicker").node().value.split("-")[2]);
+  			break;
+  		case "day":
+  			day = d3.select("#weekday").node().value;
+  			break;
+  	}
+	subClass = d3.select("#sub").node().value;
+	tripPurp = d3.select("#purpose").node().value;
+
+	fname = day + tripPurp + subClass + '.csv';
+	//console.log(fname)
+	map = d3.select("input[name = 'map']:checked").node().value;
+	d3.select("#chart-area").attr("class", map);
+	//reset the charting area
+	svg.selectAll("g.links").remove();
+	svg.selectAll("g.flowLegend").remove();
+	svg.selectAll("defs.linkFill").remove();
+	
+	
+
+	// read the link data
+	d3.csv("../data/"+fname, function(error, links) {
+	// Load the links and set the source and target
+	links.forEach(function(link) {
+		link.source = centroids[link.source];
+		link.target = centroids[link.target];
+		link.value = +link.value;
+	});
+	
+ 
 	// Scale the range of link width
 	v.domain([d3.min(links, function(d) { return d.value; }), d3.max(links, function(d) { return d.value; })]);
 	
@@ -357,20 +358,18 @@ pieLegend.selectAll("label")
 			//show the pie chart
 			//set up groups (id = pie+name)
 			dataset = d.landUse
+			var total = d3.sum(dataset.map(function(d) {               
+           			return d.area;                                           
+            }));
 			pieSvg = d3.select("#pie"+d.name.replace(/\s/g, '')).style("opacity", 0.8)
 			var arcs = pieSvg.selectAll("g.arc")
 				  .data(pie(dataset))
 				  .enter()
 				  .append("g")
 				  .attr("class", "arc")
-			var total = d3.sum(dataset.map(function(d) {               
-             		return d.area;                                           
-            }));
 				 
 				//bind event listener
 				arcs.on("mouseover", function(d){
-					
-
             		var percent = Math.round(1000 * d.data.area / total) / 10;
             		tooltip.transition("PieTt")		
            	   			   .duration(200)		
@@ -445,13 +444,7 @@ pieLegend.selectAll("label")
 	});
 }
 
-
-d3.select("#submit")
-  .on("click", function() {
-
-});
-
-onChange()
+onChange("31allall.csv")
 
 
 

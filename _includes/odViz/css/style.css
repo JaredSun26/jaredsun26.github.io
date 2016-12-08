@@ -8,7 +8,7 @@
     height: 600px;
     width : 900px;
     background-image: url(../data/popden.jpg);
-    opacity: 0.6;
+    opacity: 0.4;
     display: block;
     position: absolute;
     z-index: -1;
@@ -19,7 +19,7 @@
     height: 600px;
     width : 900px;
     background-image: url(../data/empty.jpg);
-    opacity: 0.6;
+    opacity: 0.4;
     display: block;
     position: absolute;
     z-index: -1;
@@ -29,8 +29,8 @@
     content: '';
     height: 600px;
     width : 900px;
-    background-image: url(../data/empden.jpg);
-    opacity: 0.6;
+    background-image: url(../data/empden1.jpg);
+    opacity: 0.4;
     display: block;
     position: absolute;
     z-index: -1;
@@ -44,8 +44,10 @@ h2{
 }
 
 
-button{
+#submitButton{
   padding:10px;
+  width: 6em;  
+  height: 5em;
 }
 
 table{
