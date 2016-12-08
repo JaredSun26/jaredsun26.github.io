@@ -35,10 +35,7 @@ for (var node in centroids){
 }
 
 
-////////////////////////tooltip///////////////////////////
-var tooltip = d3.select("div.container").append("div")	
-   .attr("class", "tooltip")				
-   .style("opacity", 0);
+
 
 d3.select("#submit")
   .on("click", function() {
@@ -63,6 +60,29 @@ d3.select("#submit")
 	d3.select("#chart-area").attr("class", map);
     onChange(fname);
 });
+
+
+
+function onChange(fname){
+	//reset the charting area
+	d3.select("#chart-area").selectAll("*").remove();
+	
+	
+
+	// read the link data
+	d3.csv("../data/"+fname, function(error, links) {
+	// Load the links and set the source and target
+	links.forEach(function(link) {
+		link.source = centroids[link.source];
+		link.target = centroids[link.target];
+		link.value = +link.value;
+	});
+	
+	
+////////////////////////tooltip///////////////////////////
+var tooltip = d3.select("div.container").append("div")	
+   .attr("class", "tooltip")				
+   .style("opacity", 0);
 /////////////////////////link//////////////////////////////////////
 // Set the range of link width
 var maxWidth = 10, minWidth = 2;
@@ -231,25 +251,6 @@ pieLegend.selectAll("label")
   		     //.attr("text-anchor", "middle")
   		     .text(function(d){return d;});
 /////////////////////////submit button////////////////////////
-
-function onChange(fname){
-	//reset the charting area
-	svg.selectAll("g.links").remove();
-	svg.selectAll("g.flowLegend").remove();
-	svg.selectAll("defs.linkFill").remove();
-	
-	
-
-	// read the link data
-	d3.csv("../data/"+fname, function(error, links) {
-	// Load the links and set the source and target
-	links.forEach(function(link) {
-		link.source = centroids[link.source];
-		link.target = centroids[link.target];
-		link.value = +link.value;
-	});
-	
-	console.log(links);
 	// Scale the range of link width
 	v.domain([d3.min(links, function(d) { return d.value; }), d3.max(links, function(d) { return d.value; })]);
 	
