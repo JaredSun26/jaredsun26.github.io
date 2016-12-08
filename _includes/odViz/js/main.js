@@ -254,7 +254,7 @@ function onChange(fname){
 		.nodes(d3.values(centroids))
 		.links(links)
 		.start();
-
+	
 	//Create the gradients definitions for each link
 	var grads = svg.append("defs")
 			     .attr("class", "linkFill")
@@ -313,6 +313,8 @@ function onChange(fname){
 			//hide the tooltip
 		tooltip.transition("resetLinkTt").duration(200).style("opacity", 0);	
 	})
+	
+	console.log(edge)
 
 	////////////////////////////////////Pie Chart//////////////////////////////////////	
 	d3.selectAll("circle.centroid").on("mouseover", function(d) {
