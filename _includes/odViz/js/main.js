@@ -249,7 +249,7 @@ function onChange(fname){
 		link.value = +link.value;
 	});
 	
- 
+	console.log(links);
 	// Scale the range of link width
 	v.domain([d3.min(links, function(d) { return d.value; }), d3.max(links, function(d) { return d.value; })]);
 	
