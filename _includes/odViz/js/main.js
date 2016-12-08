@@ -231,7 +231,9 @@ pieLegend.selectAll("label")
   		     //.attr("text-anchor", "middle")
   		     .text(function(d){return d;});
 /////////////////////////submit button////////////////////////
-function onChange("allall.csv"){
+
+fname = "allall.csv"
+function onChange(fname){
 	//reset the charting area
 	svg.selectAll("g.links").remove();
 	svg.selectAll("g.flowLegend").remove();
