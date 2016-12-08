@@ -241,7 +241,7 @@ function onChange(fname){
 	
 
 	// read the link data
-	d3.csv("../data/"+fname, function(error, links) {
+	d3.csv("/data/"+fname, function(error, links) {
 	// Load the links and set the source and target
 	links.forEach(function(link) {
 		link.source = centroids[link.source];
