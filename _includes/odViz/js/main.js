@@ -36,26 +36,7 @@ for (var node in centroids){
 
 
 
-function onChange(){
-	radio = d3.select("input[name = 'date']:checked").node().value;
-  	switch(radio){
-  		case "all":
-  			day = 31;
-  			break;
-  		case "date":
-  			day =  parseInt(d3.select("#datepicker").node().value.split("-")[2]);
-  			break;
-  		case "day":
-  			day = d3.select("#weekday").node().value;
-  			break;
-  	}
-	subClass = d3.select("#sub").node().value;
-	tripPurp = d3.select("#purpose").node().value;
-
-	fname = day + tripPurp + subClass + '.csv';
-	//console.log(fname)
-	map = d3.select("input[name = 'map']:checked").node().value;
-	d3.select("#chart-area").attr("class", map);
+function onChange(fname){
 	//reset the charting area
 	d3.select("#chart-area").selectAll("*").remove();
 	
@@ -170,7 +151,7 @@ linearGradient.append("stop")
 linearGradient.append("stop") 
    .attr("offset", "100%")   
    .attr("stop-color", destinationColor); //dark blue
-	function roundTo(n , digit){
+	function roundTo(n , digit, ceiling){
 	if (String(n).length > digit) {
    		var d = Math.pow(10, String(Math.round(n)).length-digit);
    		if (ceiling == true){
@@ -444,7 +425,32 @@ pieLegend.selectAll("label")
 	});
 }
 
-onChange()
+
+d3.select("#submit")
+  .on("click", function() {
+  	radio = d3.select("input[name = 'date']:checked").node().value;
+  	switch(radio){
+  		case "all":
+  			day = 31;
+  			break;
+  		case "date":
+  			day =  parseInt(d3.select("#datepicker").node().value.split("-")[2]);
+  			break;
+  		case "day":
+  			day = d3.select("#weekday").node().value;
+  			break;
+  	}
+	subClass = d3.select("#sub").node().value;
+	tripPurp = d3.select("#purpose").node().value;
+
+	fname = day + tripPurp + subClass + '.csv';
+	//console.log(fname)
+	map = d3.select("input[name = 'map']:checked").node().value;
+	d3.select("#chart-area").attr("class", map);
+    onChange(fname);
+});
+
+onChange("31allall.csv")
 
 
 
