@@ -36,7 +36,7 @@ for (var node in centroids){
 
 
 ////////////////////////tooltip///////////////////////////
-var tooltip = d3.select("#d3").append("div")	
+var tooltip = d3.select("div.container").append("div")	
    .attr("class", "tooltip")				
    .style("opacity", 0);
 
