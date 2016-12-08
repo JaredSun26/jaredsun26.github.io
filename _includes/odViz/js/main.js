@@ -447,12 +447,6 @@ pieLegend.selectAll("label")
 	});
 }
 
-
-d3.select("#submitButton")
-  .on("click", function() {
-  	
-});
-
 onChange("31allall.csv")
 
 
