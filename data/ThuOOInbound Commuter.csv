@@ -1,0 +1,62 @@
+"source","target","value"
+"Brevard","Indian River",321.11
+"Brevard","Lake",78.1
+"Brevard","Orange",2912.71
+"Brevard","Osceola",262.29
+"Brevard","Polk",315.17
+"Brevard","Seminole",484.74
+"Brevard","Sumter",71.81
+"Brevard","Volusia",516.14
+"Indian River","Brevard",568.78
+"Indian River","Lake",26.25
+"Indian River","Orange",61.91
+"Indian River","Osceola",41.51
+"Indian River","Polk",68.19
+"Indian River","Seminole",32.25
+"Lake","Brevard",76.71
+"Lake","Orange",10879.44
+"Lake","Osceola",800.49
+"Lake","Polk",1130.19
+"Lake","Seminole",1770.59
+"Lake","Sumter",1187.91
+"Lake","Volusia",984.86
+"Orange","Brevard",4397.04
+"Orange","Indian River",20.16
+"Orange","Lake",14996.78
+"Orange","Osceola",3970.12
+"Orange","Polk",7578.37
+"Orange","Seminole",5902.96
+"Orange","Sumter",142.84
+"Orange","Volusia",6854.64
+"Osceola","Brevard",551.54
+"Osceola","Lake",1088.29
+"Osceola","Orange",3637.9
+"Osceola","Polk",5379.91
+"Osceola","Seminole",229.76
+"Osceola","Volusia",321.54
+"Polk","Brevard",337.36
+"Polk","Indian River",68.19
+"Polk","Lake",1199.7
+"Polk","Orange",5920.62
+"Polk","Osceola",3701.48
+"Polk","Seminole",191.68
+"Polk","Sumter",240.75
+"Polk","Volusia",325.64
+"Seminole","Brevard",738.34
+"Seminole","Lake",2895.75
+"Seminole","Orange",4701.29
+"Seminole","Osceola",205.76
+"Seminole","Polk",532.07
+"Seminole","Volusia",11451.81
+"Sumter","Brevard",71.81
+"Sumter","Lake",1256.75
+"Sumter","Orange",229.25
+"Sumter","Polk",115.81
+"Sumter","Seminole",54.39
+"Sumter","Volusia",273.04
+"Volusia","Brevard",485.32
+"Volusia","Lake",603.18
+"Volusia","Orange",3886.71
+"Volusia","Osceola",403.21
+"Volusia","Polk",73.64
+"Volusia","Seminole",6359.98
