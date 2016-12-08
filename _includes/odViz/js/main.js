@@ -56,9 +56,6 @@ function onChange(fname){
 	//console.log(fname)
 	map = d3.select("input[name = 'map']:checked").node().value;
 	d3.select("#chart-area").attr("class", map);
-	
-	
-	
 	//reset the charting area
 	d3.select("#chart-area").selectAll("*").remove();
 	
@@ -446,6 +443,13 @@ pieLegend.selectAll("label")
 	}    
 	});
 }
+
+
+d3.select("#submitButton")
+  .on("click", function() {
+  	
+    onChange(fname);
+});
 
 onChange("31allall.csv")
 
