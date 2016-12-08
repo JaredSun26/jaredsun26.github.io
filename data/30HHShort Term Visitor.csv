@@ -1,0 +1,16 @@
+"source","target","value"
+"Brevard","Indian River",261.28
+"Brevard","Volusia",65.28
+"Indian River","Brevard",188.03
+"Lake","Orange",364.26
+"Lake","Polk",46.81
+"Lake","Sumter",570.47
+"Lake","Volusia",51.25
+"Orange","Lake",332.85
+"Osceola","Polk",399.55
+"Polk","Lake",23.77
+"Polk","Osceola",744.79
+"Sumter","Lake",505.52
+"Volusia","Brevard",130.56
+"Volusia","Lake",263.53
+"Volusia","Seminole",94.21

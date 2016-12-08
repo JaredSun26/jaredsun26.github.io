@@ -1,0 +1,21 @@
+"source","target","value"
+"Brevard","Indian River",32.83
+"Brevard","Orange",2018.07
+"Brevard","Osceola",306.15
+"Brevard","Seminole",299.63
+"Indian River","Orange",91.11
+"Indian River","Osceola",119.76
+"Lake","Orange",11684.64
+"Lake","Osceola",717.57
+"Lake","Polk",19.02
+"Lake","Seminole",1703.11
+"Lake","Sumter",114.14
+"Osceola","Orange",54.46
+"Polk","Orange",5713.75
+"Polk","Osceola",5059.86
+"Polk","Seminole",276.46
+"Sumter","Lake",43.39
+"Sumter","Orange",370.64
+"Volusia","Orange",3426.06
+"Volusia","Osceola",70.54
+"Volusia","Seminole",7743.79

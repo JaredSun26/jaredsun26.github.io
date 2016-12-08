@@ -1,0 +1,73 @@
+"source","target","value"
+"Brevard","Indian River",8137.82
+"Brevard","Lake",1600.48
+"Brevard","Orange",27629.08
+"Brevard","Osceola",4315.89
+"Brevard","Polk",1603.23
+"Brevard","Seminole",2321.17
+"Brevard","Sumter",1387.88
+"Brevard","Volusia",10561.02
+"Indian River","Brevard",7119.45
+"Indian River","Lake",241.58
+"Indian River","Orange",4726.81
+"Indian River","Osceola",1264.34
+"Indian River","Polk",1226.12
+"Indian River","Seminole",706.11
+"Indian River","Sumter",454.02
+"Indian River","Volusia",2160.11
+"Lake","Brevard",973.16
+"Lake","Indian River",141.73
+"Lake","Orange",20944.05
+"Lake","Osceola",4594.51
+"Lake","Polk",4886.25
+"Lake","Seminole",1954.78
+"Lake","Sumter",13864.32
+"Lake","Volusia",4018.1
+"Orange","Brevard",30100.43
+"Orange","Indian River",6598.38
+"Orange","Lake",25696.75
+"Orange","Osceola",184301.15
+"Orange","Polk",38544.74
+"Orange","Seminole",33969.41
+"Orange","Sumter",15631.89
+"Orange","Volusia",29374.09
+"Osceola","Brevard",5458.36
+"Osceola","Indian River",1156.84
+"Osceola","Lake",6835.65
+"Osceola","Orange",208019.53
+"Osceola","Polk",16958.85
+"Osceola","Seminole",2720.94
+"Osceola","Sumter",3667.52
+"Osceola","Volusia",5429.28
+"Polk","Brevard",2083.5
+"Polk","Indian River",957.92
+"Polk","Lake",5713.54
+"Polk","Orange",51096.48
+"Polk","Osceola",21016.83
+"Polk","Seminole",3061.48
+"Polk","Sumter",4160.98
+"Polk","Volusia",4731.02
+"Seminole","Brevard",2339.49
+"Seminole","Indian River",634.71
+"Seminole","Lake",3356.77
+"Seminole","Orange",42674
+"Seminole","Osceola",5478.73
+"Seminole","Polk",3228.76
+"Seminole","Sumter",937.33
+"Seminole","Volusia",9876.35
+"Sumter","Brevard",631.66
+"Sumter","Indian River",387.57
+"Sumter","Lake",13470.22
+"Sumter","Orange",15232.98
+"Sumter","Osceola",2230.87
+"Sumter","Polk",3945.92
+"Sumter","Seminole",1363.15
+"Sumter","Volusia",568.35
+"Volusia","Brevard",12603.56
+"Volusia","Indian River",2712.56
+"Volusia","Lake",5211.89
+"Volusia","Orange",46274.37
+"Volusia","Osceola",14138.79
+"Volusia","Polk",5103.76
+"Volusia","Seminole",11051.95
+"Volusia","Sumter",471.19

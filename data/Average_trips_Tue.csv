@@ -1,0 +1,73 @@
+source,target,value
+Brevard,Indian River,21210
+Brevard,Lake,1535
+Brevard,Orange,53420
+Brevard,Osceola,8824
+Brevard,Polk,3065
+Brevard,Seminole,6258
+Brevard,Sumter,601
+Brevard,Volusia,18038
+Indian River,Brevard,22575
+Indian River,Lake,454
+Indian River,Orange,7790
+Indian River,Osceola,1654
+Indian River,Polk,1407
+Indian River,Seminole,728
+Indian River,Sumter,431
+Indian River,Volusia,3876
+Lake,Brevard,1800
+Lake,Indian River,449
+Lake,Orange,96107
+Lake,Osceola,11765
+Lake,Polk,11366
+Lake,Seminole,17018
+Lake,Sumter,48334
+Lake,Volusia,11959
+Orange,Brevard,51289
+Orange,Indian River,6821
+Orange,Lake,96536
+Orange,Osceola,326261
+Orange,Polk,89006
+Orange,Seminole,320168
+Orange,Sumter,14595
+Orange,Volusia,58026
+Osceola,Brevard,8712
+Osceola,Indian River,1926
+Osceola,Lake,11224
+Osceola,Orange,345518
+Osceola,Polk,55299
+Osceola,Seminole,9075
+Osceola,Sumter,3143
+Osceola,Volusia,5487
+Polk,Brevard,2972
+Polk,Indian River,1420
+Polk,Lake,12357
+Polk,Orange,92867
+Polk,Osceola,54373
+Polk,Seminole,5975
+Polk,Sumter,3880
+Polk,Volusia,6056
+Seminole,Brevard,6042
+Seminole,Indian River,590
+Seminole,Lake,17515
+Seminole,Orange,313568
+Seminole,Osceola,9222
+Seminole,Polk,6391
+Seminole,Sumter,1399
+Seminole,Volusia,67602
+Sumter,Brevard,701
+Sumter,Indian River,524
+Sumter,Lake,48079
+Sumter,Orange,14489
+Sumter,Osceola,2669
+Sumter,Polk,3510
+Sumter,Seminole,1401
+Sumter,Volusia,1130
+Volusia,Brevard,14875
+Volusia,Indian River,2720
+Volusia,Lake,11606
+Volusia,Orange,58370
+Volusia,Osceola,5125
+Volusia,Polk,5975
+Volusia,Seminole,62128
+Volusia,Sumter,994

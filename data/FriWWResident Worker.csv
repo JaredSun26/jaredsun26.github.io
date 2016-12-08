@@ -1,0 +1,12 @@
+"source","target","value"
+"Lake","Orange",60.46
+"Orange","Lake",60.46
+"Orange","Osceola",1562.01
+"Orange","Polk",9.32
+"Orange","Seminole",1910.24
+"Osceola","Orange",1613.75
+"Osceola","Polk",52.25
+"Polk","Osceola",68.1
+"Seminole","Orange",2249.14
+"Seminole","Volusia",83.72
+"Volusia","Seminole",41.86

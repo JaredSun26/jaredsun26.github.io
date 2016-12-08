@@ -1,0 +1,7 @@
+"source","target","value"
+"Lake","Osceola",5.8
+"Lake","Sumter",57.75
+"Orange","Osceola",24.86
+"Osceola","Lake",5.8
+"Osceola","Orange",47.24
+"Sumter","Lake",57.75

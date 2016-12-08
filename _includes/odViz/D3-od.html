@@ -4,20 +4,73 @@
 	<meta charset="utf-8">
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Force Directed</title>
+	<title>OD Trips Visualization</title>
+	
 
 	<link href='https://fonts.googleapis.com/css?family=Lato:400,300,400italic,700' rel='stylesheet' type='text/css'>
+
 </head>
 <body>
 
+
 	<div class="container">
-
-		<h3>April 2014 Average OD Trips Between Counties (Force Directed Layout)</h3>
-
+		<table> 
+		<tr>
+			<td>
+				<h2>Day/Date:</h2>
+				<input type="radio" name="date" value="day">Day of the Week: 
+				<select name = 'Day of Week' id="weekday">
+					<option value="Mon">Monday</option>
+					<option value="Tue">Tuesday</option>
+					<option value="Wed">Wednesday</option>
+					<option value="Thu">Thursday</option>
+					<option value="Fri">Friday</option>
+					<option value="Sat">Saturday</option>
+					<option value="Sun">Sunday</option>
+				</select><br>
+				<input type="radio" name="date" value="date">Date: <input type="date" id = 'datepicker' min="2014-04-01" max="2014-04-30" value="2014-04-01"><br>
+				<input type="radio" name="date" value="all" checked="checked">All Days<br>
+			</td>
+			<td>
+				Subsriber Class:
+				<select name = 'Subscriber Class' id="sub">
+					<option value="all" selected>(All)</option> 
+					<option value="Home Worker">Home Worker</option>
+					<option value="Short Term Visitor">Short Term Visitor</option>
+					<option value="Long Term Visitor">Long Term Visitor</option>
+					<option value="Resident Worker">Resident Worker</option>
+					<option value="Inbound Commuter">Inbound Commuter</option>
+					<option value="Outbound Commuter">Outbound Commuter</option>
+				</select><br>
+				Trip Purpose:
+				<select name = 'Trip Purpose' id="purpose">
+					<option value="all" selected>(All)</option> 
+					<option value="HO">Home-Other</option>
+					<option value="OO">Ohter-Other</option>
+					<option value="OH">Other-Home</option>
+					<option value="WW">Work-Work</option>
+					<option value="OW">Other-Work</option>
+					<option value="WO">Work-Other</option>
+					<option value="HH">Home-Home</option>
+					<option value="HW">Home-Work</option>
+					<option value="WH">Work-Home</option>
+				</select>
+			</td>
+			<td>
+				<h2>Base Map:</h2>
+				<input type="radio" name="map" value="basic" checked = "checked">Basic<br>
+				<input type="radio" name="map" value="popden">Population Density<br>
+				<input type="radio" name="map" value="empden">Employment Density<br>
+			</td>
+			<td>
+				<button id = "submit">Submit</button>
+			</td>
+		</tr>
+		</table>
 		<!-- Parent container for the visualization -->
-		<div id="chart-area"></div>
+			<div id="chart-area" class = "basic"></div>
 
 	</div>
-
+	
 </body>
 </html>
