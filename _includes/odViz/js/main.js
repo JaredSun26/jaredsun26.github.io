@@ -451,7 +451,7 @@ d3.select("#submitButton")
     onChange(fname);
 });
 
-onChange("31allall.csv")
+onChange()
 
 
 
