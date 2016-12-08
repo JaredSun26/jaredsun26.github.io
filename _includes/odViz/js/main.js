@@ -36,7 +36,7 @@ for (var node in centroids){
 
 
 
-function onChange(fname){
+function onChange(){
 	radio = d3.select("input[name = 'date']:checked").node().value;
   	switch(radio){
   		case "all":
@@ -443,13 +443,6 @@ pieLegend.selectAll("label")
 	}    
 	});
 }
-
-
-d3.select("#submitButton")
-  .on("click", function() {
-  	
-    onChange(fname);
-});
 
 onChange()
 
