@@ -246,7 +246,7 @@ function onChange(fname){
 		link.value = +link.value;
 	});
 	
- 
+	console.log(links)
 	// Scale the range of link width
 	v.domain([d3.min(links, function(d) { return d.value; }), d3.max(links, function(d) { return d.value; })]);
 	
@@ -314,7 +314,6 @@ function onChange(fname){
 		tooltip.transition("resetLinkTt").duration(200).style("opacity", 0);	
 	})
 	
-	console.log(edge)
 
 	////////////////////////////////////Pie Chart//////////////////////////////////////	
 	d3.selectAll("circle.centroid").on("mouseover", function(d) {
