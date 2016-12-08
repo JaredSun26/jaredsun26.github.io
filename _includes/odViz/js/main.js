@@ -170,7 +170,7 @@ linearGradient.append("stop")
 linearGradient.append("stop") 
    .attr("offset", "100%")   
    .attr("stop-color", destinationColor); //dark blue
-	function roundTo(n , digit, ceiling = true){
+	function roundTo(n , digit){
 	if (String(n).length > digit) {
    		var d = Math.pow(10, String(Math.round(n)).length-digit);
    		if (ceiling == true){
