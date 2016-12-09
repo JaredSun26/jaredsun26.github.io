@@ -7,7 +7,7 @@
     content: '';
     height: 600px;
     width : 900px;
-    background-image: url(../data/popden.jpg);
+    background-image: url(../data/odViz/popden.jpg);
     opacity: 0.4;
     display: block;
     position: absolute;
@@ -18,7 +18,7 @@
     content: '';
     height: 600px;
     width : 900px;
-    background-image: url(../data/empty.jpg);
+    background-image: url(../data/odViz/empty.jpg);
     opacity: 0.4;
     display: block;
     position: absolute;
@@ -29,7 +29,7 @@
     content: '';
     height: 600px;
     width : 900px;
-    background-image: url(../data/empden1.jpg);
+    background-image: url(../data/odViz/empden1.jpg);
     opacity: 0.4;
     display: block;
     position: absolute;
