@@ -106,8 +106,8 @@ node.attr("transform", function(d) {
 
 
 ////////////////////////link fill/////////////////////////////////
-var sourceColor = "#cc0000"
-var destinationColor = "#00b8e6"
+var sourceColor = "#fc0000"
+var destinationColor = "#00cbff"
 linkOpacity = 0.4
 //Function to create the unique id for each link gradient
 function getGradID(d){ return "linkGrad-" + d.source.index + "-" + d.target.index; }
@@ -314,13 +314,13 @@ function onChange(){
 	////////////////////////////////////Pie Chart//////////////////////////////////////	
 	d3.selectAll("circle.centroid").on("mouseover", function(d) {
 			//////////////mouse on this node///////////////
-           	var production = d3.sum(edge.data().map(function(l) {
+           	var origin = d3.sum(edge.data().map(function(l) {
            		if (d === l.source) {
            			return(l.value)
            		}                                               
             }));
             
-           	var attraction = d3.sum(edge.data().map(function(l) {
+           	var destination = d3.sum(edge.data().map(function(l) {
            		if (d === l.target ){
            			return(l.value)
            		}                                               
@@ -331,7 +331,7 @@ function onChange(){
 			tooltip.transition("showNodeTt")		
            		   .duration(200)		
            	 	   .style("opacity", .9);	
-        	tooltip.html(d.name +"<br/>" +"Production: "+ production.toFixed(1) + "<br/>Attraction: " + attraction.toFixed(1))	
+        	tooltip.html(d.name +"<br/>" +"Origin: "+ origin.toFixed(1) + "<br/>Destination: " + destination.toFixed(1))	
               		.style("left", (d3.event.pageX + 10) + "px")		
               		.style("top", (d3.event.pageY - 28) + "px");
               		
